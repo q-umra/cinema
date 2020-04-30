@@ -1,0 +1,139 @@
+/*style for the page background*/
+.booking-panel {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr 3fr;
+    background-color:#1a162c ;
+    padding: 40px;
+    box-shadow: 1px 0px 23px 3px rgba(238, 233, 233, 0.45);
+    -webkit-box-shadow: 1px 0px 23px 3px rgba(109, 102, 102, 0.45);
+    -moz-box-shadow: 1px 0px 23px 3px rgba(126, 116, 116, 0.45);
+    transition: all 0.7s ease;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+} 
+
+/*style for the tital*/
+.booking-panel-section1 { 
+    color:#ffffffe7;
+    background-color:  #1a162c;
+    border-radius: 10px;
+    border: 1px #a0a146 solid;
+    
+    
+}
+ 
+
+/*style for (x) botton*/
+.booking-panel-section2>i {
+    background-color:#1a162c ;
+    color: rgb(204, 195, 195);
+    padding: 15px;
+    float: right;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+/*style for the imeg*/
+.booking-panel-section3>.movie-box {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.booking-panel-section3 img {
+    max-width: 100%;
+}
+
+.booking-panel-section3>.movie-box {
+    margin: 0;
+}
+
+/*style for movie informaion section */
+.booking-panel-section4 {
+    border-radius: 10px;
+    border: 1px #727937 solid;
+    background-color: #1a162c;
+}
+/*style for movie tital*/
+.booking-panel-section4>.title {
+    border-bottom: #1a162c 1px solid;
+    color: #ffffff;
+    padding: 0 0 15px 0;
+    margin: 0 0 15px 0;
+    font-size: 24pt;
+    padding: 35px 35px 20px 35px;
+    font-weight: bold;
+}
+/*style for movie informaion table */
+.movie-information>table {
+    padding: 0 35px 0 35px;
+}
+
+.movie-information td {
+    padding: 8px 25px 8px 0;
+    text-align: left;
+    color:#978443;
+}
+
+.movie-information table tr td:first-child {
+    color: #fcf8f8;
+    font-weight: bold;
+}
+/*style for booking section */
+.booking-form-container {
+    background-color:#1a162c;
+    width: 94%;
+    padding: 25px;
+    margin: 20px 0;
+}
+
+.booking-form-container form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/*style for book button*/
+.booking-form-container form button {
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    float: right;
+    width: 25%;
+    text-align: center;
+    background-color:#978443;
+    color: rgb(245, 240, 240);
+    transition: all 0.7s ease;
+    cursor: pointer;
+    height: 42px;
+}
+
+.booking-form-container form button:hover {
+    background-color: #666363
+}
+/*style for input tag */
+.booking-form-container form select {
+    padding: 10px;
+    background:  rgb(68, 67, 67) url('#') no-repeat calc(100% - 10px) 50%;
+    box-sizing: border-box;
+    border: solid 2px #e7e6f0;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fafafa;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 23%;
+    height: 42px;
+    margin: 5px 0;
+}
+
+.booking-form-container form input {
+    border-radius: 4px;
+    border: 1px solid #fffefe;
+    background: rgb(68, 67, 67);
+    padding: 10px;
+    width: 31%;
+    height: 42px;
+    margin: 5px 0;
+}

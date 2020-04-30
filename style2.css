@@ -1,0 +1,322 @@
+
+
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    text-decoration: none;
+    background-color: #1a162c ;
+
+} 
+
+ 
+
+body{  
+
+    background-color: #050505;
+    background-size: cover;
+    
+  
+}  
+
+/* navbar style */
+.header{
+    width: 80%;
+    height: 730%;
+    border: 2px solid black;
+    margin-left: 17%;
+    margin-top: 1%; 
+    background-color: #1a162c;
+    box-shadow: 0 5px 38px rgb(63, 63, 61);
+} 
+
+ /* body box */
+.main_box{
+    width: 80%;
+    height: 1000%; 
+    
+    border: 2px solid black;
+    margin-left: 17%;
+    margin-top: 1%; 
+    box-shadow: 0 5px 38px #978443; 
+    background-color: #1a162c;
+} 
+#logo>h5 img{ 
+    border-radius: 10px;
+    border: 1px  solid #978443 ;
+} 
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+} 
+/* @keyframes rule specifies the animation code */
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+    
+ /* Movie Section Styling */
+
+ .movie-show-container {
+    margin-top: 0;
+    padding: 100% 90% 70%;
+}
+
+.container1>h1 {
+    color: #eeedec;
+    text-align: left;
+    padding: 0 0 10px 0;
+}  
+.container1>h1:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #978443;
+    position: relative;
+    bottom: -10px;
+} 
+
+.container1>h1::before {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #978443;
+  position: relative;
+  bottom: 10px; 
+  top:50;
+  margin-top: 100px;
+}
+.movie-show-container2>h1 {
+    color: #88774a;
+    text-align: left;
+    padding: 0 0 10px 0;  
+   
+    
+} 
+.movie-show-container2>h1::before {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #88774a;
+  position: relative;
+  bottom: 10px; 
+ }
+
+
+.movie-show-container2>h3 {
+    color: #fcf6f6;
+    text-align: left;
+    padding: 0 0 10px 0;
+}
+
+ /* Line after "book movie now"  */
+.movie-show-container2>h3:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #88774a;
+    position: relative;
+    bottom: -10px;
+} 
+
+/* to style the image of the movies */
+.movies-container {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px 0;
+}
+
+.movie-box {
+    position: relative;
+    margin: 10px 0;
+} 
+
+/* Movies size */
+.movie-box img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+/* to style the movies info on mavies image */
+.movie-box .movie-info {
+    padding: 50% 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: rgb(0, 0, 0);
+}
+
+.movie-box:hover .movie-info {
+    opacity: 0.8;
+}
+
+.movie-info>h3 {
+    padding: 10px 0;
+    color: #FFF;
+}
+
+.movie-info>a {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    border-radius: 0.13em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.movie-info>a:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+/* Tthe line that sectioned the page */
+.divide{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #88774a;
+    position: relative;
+    bottom: -10px;
+}  
+
+
+/* Trailers Section */
+#home-section-3 {
+    margin: 100px 0; 
+    
+} 
+/* to style h1  */
+.trailers-section>h1 {
+      text-align: left;
+      color: rgb(129, 129, 94);
+}
+/* line after h1 */
+.trailers-section>h1::after {
+      content: '';
+      display: block;
+      height: 3px;
+      width: 100%;
+      background: rgb(129, 129, 94);
+      position: relative;
+      bottom: -10px;
+  } 
+/* line before h1 */
+.trailers-section>h1::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: rgb(129, 129, 94);
+    position: relative;
+    bottom: 20px;
+} 
+/* to make images in columns  */
+.trailers-grid {
+      margin: 60px 0;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      height: 80vh; 
+      
+}
+/* to style the info over an image  */
+.trailers-grid-item {
+      font-size: 30px;
+      text-align: center;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      vertical-align: middle;
+  }
+/* to style the info over an image  */
+.trailer-item-info {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      z-index: 10;
+      vertical-align: middle;
+      opacity: 0;
+      transition: .7s ease;
+      background-color: rgb(0, 0, 0);
+      padding: 85px 0;
+  }
+.trailer-item-info:hover {
+      opacity: 0.8;
+}
+/* to style the name of the movie on the image  */
+.trailer-item-info h3 {
+      vertical-align: middle;
+      color: rgb(255, 255, 255);
+  }
+
+
+
+ /* Footer Styling */
+.site-footer
+{
+     background-color:#1a162c;
+     padding:30px 0 10px;
+     font-size:15px;
+     line-height:24px;
+     color:#737373;
+}
+ /* About word style */
+.site-footer h6
+{
+     color:#fff;
+     font-size:16px;
+     text-transform:uppercase;
+     margin-top:5px;
+     letter-spacing:2px;
+     
+     
+} 
+/* make contact us list in block  */
+.footer-links li
+{
+     display:block
+}
+
+   
+   
+   
+  
+   
+  
+  
+
+
+
